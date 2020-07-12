@@ -9,10 +9,8 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Actionsdemo {
 
-	private static final WebElement Webelement = null;
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		System.setProperty("webdriver.chrome.driver", "D:\\reshmi\\work\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
