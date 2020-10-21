@@ -4,10 +4,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
+/**
+* Enabling and Disabling checkbox
+*
+*
+**/
+
 public class AssignmentCheckbox {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
+
 		System.setProperty("webdriver.chrome.driver", "D:\\reshmi\\work\\chromedriver_win32\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
